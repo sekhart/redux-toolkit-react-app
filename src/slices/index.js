@@ -1,6 +1,8 @@
-import React from "react";
-import { combineReducers } from "@reduxjs/toolkit";
+import { combineReducers } from "redux";
+import productsReducer from './products'
 
-const rootReducer = combineReducers({});
+const rootReducer = combineReducers({
+    products: productsReducer,
+});
 
 export default rootReducer;
