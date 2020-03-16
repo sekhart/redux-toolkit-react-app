@@ -17,7 +17,7 @@ const ProductsPage = () => {
         if (loading) return <p>Loading Products ...</p>
         if (hasErrors) return <p>Unable to Load Products</p>
 
-        return products.map(product => <Product key={product.productId} product={product} />);
+        return products.map(product => <Product key={product.id} product={product} />);
     };
 
     return (

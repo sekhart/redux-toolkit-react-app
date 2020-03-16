@@ -39,7 +39,9 @@ export function fetchProducts() {
         dispatch(getProducts());
 
         try {
-            const response = await fetch(`http://localhost:8090/productInfo/getProducts`);
+            // const response = await fetch(`http://localhost:8090/productInfo/getProducts`);
+            const response = await fetch("https://api.github.com/users");
+            
             const data = await response.json();
             console.log("data:---" + data)
             dispatch(getProductsSuccess(data))

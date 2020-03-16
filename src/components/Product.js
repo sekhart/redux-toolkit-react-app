@@ -3,9 +3,9 @@ import React from 'react'
 
 export const Product = ({ product }) => (
     <article className="userCls">
-        <h2>{product.productName}</h2>
-        <p>{product}</p>
-        <p>{product.price}</p>
+        <h2>{product.login}</h2>
+        {/* <p>{product.body.substring(0, 500)}</p> */}
+        <p>{product.url}</p>
         
     </article>
 )
