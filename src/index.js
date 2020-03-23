@@ -13,7 +13,7 @@ render(
   <Provider store={store}>
     <App />
   </Provider>,
-  document.getElementById("root")
+  document.querySelector("#root")
 );
 
 if (module.hot) {
