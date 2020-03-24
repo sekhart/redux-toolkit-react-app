@@ -2,7 +2,7 @@ import React from "react";
 
 const DashboardPage = () => (
   <section>
-    <h1>Dashboard</h1>
+    <h1>DDDD</h1>
   </section>
 );
 
